@@ -7,7 +7,8 @@
   This simple script automatically generates TeamSpeak 3 Client Plugin bundles
   based on libraries located in the same directories.
 
-  All libraries must follow the same naming convention
+  IMPORTANT:
+  All libraries must follow the same naming convention!
 
   Windows 32-Bit:  myplugin_win32.dll
   Windows 64-Bit:  myplugin_win64.dll
