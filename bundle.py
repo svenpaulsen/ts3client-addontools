@@ -12,9 +12,9 @@
 
   Windows 32-Bit:  myplugin_win32.dll
   Windows 64-Bit:  myplugin_win64.dll
-  Linux 32-Bit:    myplugin_linux_x84.so
-  Linux 64-Bit:    myplugin_linux_amd64.so
-  macOS:           myplugin_mac.dylib
+  Linux 32-Bit:    libmyplugin_linux_x84.so
+  Linux 64-Bit:    libmyplugin_linux_amd64.so
+  macOS:           libmyplugin_mac.dylib
 """
 
 import sys
