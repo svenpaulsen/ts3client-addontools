@@ -4,7 +4,7 @@ This repository contains a collection of some quick-and-dirty tools to help buil
 
 ## bundle-plugin.py
 
-This simple script automatically generates TeamSpeak 3 Client Plugin bundles based on a [package.ini](package.ini) and libraries located in the same directories. Note that all libraries must follow the same naming convention. For example:
+This simple script automatically generates TeamSpeak 3 Client Plugin bundles based on a [package.ini](package.ini) and libraries located in the same directory. Note that all libraries must follow the same naming convention. For example:
 
 - myplugin_win32.dll
 - myplugin_win64.dll
@@ -22,4 +22,20 @@ bundle-plugin.py [-v version] name
 
 ```bash
 bundle-plugin.py -v 0.1.2 myplugin
+```
+
+## bundle-style.py
+
+This simple script automatically generates TeamSpeak 3 Client Style bundles based on a [package.ini](package.ini), Qt Style Sheet (.qss) and asset directories located in the same directory.
+
+### Usage
+
+```bash
+bundle-style.py [-v version] name
+```
+
+### Example
+
+```bash
+bundle-plugin.py -v 0.1.2 mystyle
 ```
