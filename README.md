@@ -37,5 +37,5 @@ bundle-style.py [-v version] name
 ### Example
 
 ```bash
-bundle-plugin.py -v 0.1.2 mystyle
+bundle-style.py -v 0.1.2 mystyle
 ```
