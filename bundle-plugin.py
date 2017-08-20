@@ -68,6 +68,7 @@ for platform, suffixes in pkgPlatforms.items():
 
   pkgConf = pkgConf.replace("__PLATFORM__", platform)
   pkgConf = pkgConf.replace("__VERSION__", options.v)
+  pkgConf = pkgConf.replace("__TYPE__", "Plugin")
 
   zip = ZipFile(os.path.join(".", pkgName), "w")
 
