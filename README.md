@@ -26,7 +26,7 @@ bundle-plugin.py -v 0.1.2 myplugin
 
 ## bundle-style.py
 
-This simple script automatically generates TeamSpeak 3 Client Style bundles based on a [package.ini](package.ini), Qt Style Sheet (.qss) and asset directories located in the same directory.
+This simple script automatically generates TeamSpeak 3 Client Style bundles based on a [package.ini](package.ini), Qt Style Sheet files (.qss) and asset directories located in the same directory.
 
 ### Usage
 
